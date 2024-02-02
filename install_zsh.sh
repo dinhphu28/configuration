@@ -26,7 +26,7 @@ install_zsh_auto_suggestions() {
 install_fonts() {
   echo "Downloading and installing MesloLGS NF fonts..."
 
-  fonts_dir=#$HOME/.local/share/fonts"
+  fonts_dir="#$HOME/.local/share/fonts"
   if [ ! -d "${fonts_dir}" ]; then
     echo "mkdir -p ${fonts_dir}"
     mkdir -p "${fonts_dir}"
