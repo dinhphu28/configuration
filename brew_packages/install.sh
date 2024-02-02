@@ -23,5 +23,6 @@ brew install jenv
 brew install coursier/formulas/coursier
 echo "Installing scala..."
 coursier setup
+brew install metals
 
 brew install go
