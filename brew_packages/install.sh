@@ -15,7 +15,7 @@ brew install npm
 brew install yarn
 
 brew install openjdk
-brew instlal openjdk@11
+brew install openjdk@11
 brew install openjdk@17
 brew install maven
 brew install jenv
