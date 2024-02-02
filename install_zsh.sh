@@ -35,7 +35,7 @@ install_fonts() {
   fi
 
   for type in "Bold" "Bold Italic" "Italic" "Regular"; do
-    file_path="$HOME/.local/share/fonts/MesloLGS\ NF\ ${type}.ttf"
+    file_path="$HOME/.local/share/fonts/MesloLGS NF ${type}.ttf"
     file_url="https://github.com/romkatv/powerlevel10k-media/blob/master/MesloLGS NF ${type}.ttf"
     if [ ! -e "${file_path}" ]; then
       echo "wget -O ${file_path} ${file_url}"
