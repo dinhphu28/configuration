@@ -2,10 +2,14 @@
 install_zsh() {
   echo "Installing ZSH"
 
-  sudo dnf install zsh
-  chsh -s $(which zsh)
+  if test ! $(which zsh); then
+    sudo dnf install zsh
+    chsh -s $(which zsh)
 
-  echo "ZSH Installed"
+    echo "ZSH Installed Successfully!"
+  else
+    echo "ZSH has been installed!"
+  fi
 }
 
 install_oh_my_zsh() {
