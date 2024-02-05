@@ -7,13 +7,13 @@
 . ./install_docker.sh
 . ./brew_packages/install.sh
 
- # TODO: Should switch to zsh after installation
- install_zsh
+# TODO: Should switch to zsh after installation
+install_zsh
 
 install_oh_my_zsh
 install_zsh_syntax_highlighting
 install_zsh_auto_suggestions
-install_zshpowerlevel10k
+install_zsh_powerlevel10k
 
 install_brew
 install_docker
