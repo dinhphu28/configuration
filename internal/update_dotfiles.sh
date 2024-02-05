@@ -8,4 +8,5 @@ update_dotfiles() {
   cp /tmp/dotfiles/kitty $HOME/.config/kitty
   cp /tmp/dotfiles/nvim $HOME/.config/nvim
   cp /tmp/dotfiles/ssh $HOME/.ssh
+  cp /tmp/dotfiles/gnupg $HOME/.gnupg
 }
