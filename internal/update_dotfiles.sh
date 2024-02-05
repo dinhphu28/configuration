@@ -1,6 +1,6 @@
 #!/bin/sh
 update_dotfiles() {
-  git clone https://github.com/dinhphu28/dotfiles.git /tmp/dotfiles
+  git clone -b at-office https://github.com/dinhphu28/dotfiles.git /tmp/dotfiles
 
   cp /tmp/dotfiles/.zshrc $HOME/.zshrc
   cp /tmp/dotfiles/.p10k.zsh $HOME/.p10k.zsh
