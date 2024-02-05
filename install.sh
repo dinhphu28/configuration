@@ -17,6 +17,6 @@ install_zshpowerlevel10k
 
 install_brew
 install_docker
-./brew_packages/install.sh
+install_brew_packages
 
 update_dotfiles
